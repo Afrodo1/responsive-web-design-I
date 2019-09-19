@@ -145,7 +145,7 @@ address{
 }
 @media(max-width: 800px){
     .container{
-        max-width: 500px;
+        max-width: 600px;
         margin: 0 auto;
     
     }
@@ -180,12 +180,51 @@ address{
     .title{
         margin-left: 30%;
 
-    }
-
-
-
-    
+    }    
 }
 @media(max-width: 500px){
+
+    .container{
+        max-width: 500px;
+    }
+    .header{
+        width: 100%;
+    }
+    .top{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        padding-top: 9%;
+        margin-top: 3%;
+        width: 100%;
+        margin-left: 0%;
+        border-top: 1px solid grey;
+    }
+    a{
+        border-top: 1px solid grey;
+        margin-top: 3%;
+        width: 100%;
+        text-align: center;
+        padding-top: 3%;
+        
+    }
+    h1{
+        width: 53%;
+        text-align: center;
+        margin-left: 20%;
+    }
+    .con{
+        
+    }
+    .get{
+        margin-left: 30%;
+    }
+
     
 }
